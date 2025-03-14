@@ -26,14 +26,16 @@ A RESTful API for managing blog posts and tags using Node.js and MongoDB. This A
 
 ## Get started
 Clone the repository:
-   git clone https://github.com/yourusername/blog-api.git
+   git clone https://github.com/priyankaparthiban/blog
    cd blog-api
 
 Install the dependencies:
     npm install
 
 Create a .env file in the root directory and add your MongoDB connection string:
-    MONGODB_URI=mongodb://<username>:<password>@localhost:27017/<databasename>
+
+    MONGODB_URI=mongodb://<username>:<password>@localhost:27017/<<databasename>>
+
     PORT=5000
 
 Start the MongoDB server (if running locally):
